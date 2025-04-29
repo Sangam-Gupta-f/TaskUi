@@ -1,0 +1,16 @@
+// src/App.jsx
+import { Provider } from 'react-redux'
+import { store } from './app/store'
+import Dashboard from './pages/Dashboard'
+
+function App() {
+  return (
+    <Provider store={store}>
+     
+        <Dashboard />
+      
+    </Provider>
+  )
+}
+
+export default App

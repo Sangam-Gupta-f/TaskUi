@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* Important for drag and drop functionality */
+body {
+  user-select: none;
+}
+
+/* Smooth dragging experience */
+[draggable] {
+  user-select: none;
+  -webkit-user-drag: element;
+}
